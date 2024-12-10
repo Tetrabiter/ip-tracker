@@ -2,7 +2,7 @@
 
 const Info = () => {
     return (
-        <div className="w-5/6 h-1/6 flex justify-center items-center gap-8">
+        <div className="w-5/6 h-32 flex justify-center items-center gap-8">
             <div className="">
                 <p className="font-semibold text-gray-500">IP ADDRESS</p>
                 <p className=""></p>
