@@ -20,25 +20,25 @@ const Info = () => {
 
 
     return (
-        <div className="w-5/6 h-32 flex justify-center items-center gap-8">
+        <div className="w-5/6 h-40 flex justify-center items-center gap-8 bg-white rounded-xl">
             <div className="">
-                <p className="font-semibold text-gray-500">IP ADDRESS</p>
-                <p className="">{address}</p>
+                <p className="font-bold tracking-widest text-gray-400">IP ADDRESS</p>
+                <p className="text-4xl font-semibold">{address}</p>
             </div>
-            <div className="border-l-2 h-14" />
+            <div className="border-l-2 h-14 mx-4" />
             <div className="">
-                <p className="font-semibold text-gray-500">LOCATION</p>
-                <p className="">{location}</p>
+                <p className="font-bold tracking-widest text-gray-400">LOCATION</p>
+                <p className="text-4xl font-semibold">{location}</p>
             </div>
-            <div className="border-l-2 h-14" />
+            <div className="border-l-2 h-14 mx-4" />
             <div className="">
-                <p className="font-semibold text-gray-500">TIMEZONE</p>
-                <p className="">{timezone}</p>
+                <p className="font-bold tracking-widest text-gray-400">TIMEZONE</p>
+                <p className="text-4xl font-semibold">{timezone}</p>
             </div>
-            <div className="border-l-2 h-14" />
+            <div className="border-l-2 h-14 mx-4" />
             <div className="">
-                <p className="font-semibold text-gray-500">ISP</p>
-                <p className="">{isp}</p>
+                <p className="font-bold tracking-widest text-gray-400">ISP</p>
+                <p className="text-4xl font-semibold">{isp}</p>
             </div>
         </div>
     );
