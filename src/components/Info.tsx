@@ -20,22 +20,22 @@ const Info = () => {
 
 
     return (
-        <div className="w-5/6 h-40 flex justify-center items-center gap-8 bg-white rounded-xl">
+        <div className="w-5/6 h-48 flex justify-center items-center gap-20 bg-white rounded-xl shadow-2xl">
             <div className="">
                 <p className="font-bold tracking-widest text-gray-400">IP ADDRESS</p>
                 <p className="text-4xl font-semibold">{address}</p>
             </div>
-            <div className="border-l-2 h-14 mx-4" />
+            <div className="border-l-2 h-20 mx-5" />
             <div className="">
                 <p className="font-bold tracking-widest text-gray-400">LOCATION</p>
                 <p className="text-4xl font-semibold">{location}</p>
             </div>
-            <div className="border-l-2 h-14 mx-4" />
+            <div className="border-l-2 h-20 mx-5" />
             <div className="">
                 <p className="font-bold tracking-widest text-gray-400">TIMEZONE</p>
                 <p className="text-4xl font-semibold">{timezone}</p>
             </div>
-            <div className="border-l-2 h-14 mx-4" />
+            <div className="border-l-2 h-20 mx-5" />
             <div className="">
                 <p className="font-bold tracking-widest text-gray-400">ISP</p>
                 <p className="text-4xl font-semibold">{isp}</p>

@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'desktop': "url('public/images/pattern-bg-desktop.png')",
-        'mobile': "url('public/images/pattern-bg-mobile.png')",
+        'desktop': "url('src/images/pattern-bg-desktop.png')",
+        'mobile': "url('src/images/pattern-bg-mobile.png')",
       }
     },
   },

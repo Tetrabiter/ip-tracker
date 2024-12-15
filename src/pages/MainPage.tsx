@@ -3,6 +3,7 @@ import Topic from "../components/Topic";
 import Info from "../components/Info";
 
 
+
 const MainPage = () =>{
     return(
         <div className="w-full h-screen">
@@ -12,6 +13,7 @@ const MainPage = () =>{
                 <SearchInput />
                 <Info />
             </div>
+            <img src="src/images/icon-location.svg"/>
         </div>
     )
 }
